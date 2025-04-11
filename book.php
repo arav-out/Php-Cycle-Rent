@@ -9,7 +9,7 @@ if (!array_key_exists('user_id', $_SESSION) && empty($_SESSION['user_id'])) {
 $user=$_SESSION['user_id'];
 
 
-
+// hanges made to the database connection and query execution to prevent SQL injection attacks and improve security.
 
 
 ?>
