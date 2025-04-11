@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Program with Database Storage</title>
+    <style>
+        .counter {
+            font-size: 30px;
+            margin: 20px;
+        }
+        button {
+            font-size: 20px;
+            padding: 10px 20px;
+            margin-top: 10px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="counter">
+        <h2>Counter: <span id="counterValue">0</span></h2>
+        <button id="incrementBtn">Increment</button>
+        <button id="decrementBtn">Decrement</button>
+        <br>
+        <button id="submitBtn">Submit</button>
+        <p id="successMessage" style="color: green;"></p>
+    </div>
+
+    <script>
+        let counter = 0;
+
+        const counterValueElement = document.getElementById('counterValue');
+        const incrementButton = document.getElementById('incrementBtn');
+        const decrementButton = document.getElementById('decrementBtn');
+        const submitButton = document.getElementById('submitBtn');
+        const successMessageElement = document.getElementById('successMessage');
+
+        // Update counter display
+        function updateCounter() {
+            counterValueElement.textContent = counter;
+        }
+
+        // Increment counter
+        incrementButton.addEventListener('click', function() {
+            counter++;
+            updateCounter();
+        });
+
+        // Decrement counter
+        decrementButton.addEventListener('click', function() {
+            counter--;
+            updateCounter();
+        });
+
+        // Submit counter value to the database
+        submitButton.addEventListener('click', function() {
+            fetch('/submit-counter', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ counterValue: counter })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    successMessageElement.textContent = 'Counter value submitted successfully!';
+                } else {
+                    successMessageElement.textContent = 'Error submitting counter value.';
+                }
+            })
+            .catch(error => {
+                successMessageElement.textContent = 'Error: ' + error.message;
+            });
+        });
+    </script>
+
+</body>
+</html>

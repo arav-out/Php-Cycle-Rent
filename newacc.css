@@ -1,0 +1,54 @@
+body{
+    background-color: grey;
+    margin: 0%;
+}
+
+.div2{
+
+width: 200px;
+height: 200px;
+float: left;
+float: top;
+margin-top: 0%;
+margin-left: 0%;
+
+
+border-top-left-radius: 1000000px;
+border-top-right-radius: 1000000px;
+border-bottom-right-radius: 1000000px;
+border-bottom-left-radius:1000000px ;
+
+}
+form{
+    align-content: center;
+   
+    
+}
+label{
+    font-family: monospace;
+}
+h1{
+    font-family: monospace;
+    font-size: xx-large;
+    
+}
+.div1{
+    margin-top: 100px;
+    margin-left: 200px;
+    display: block;
+
+    width: auto;
+    height: auto;
+}
+.s1{
+
+    border-radius: 5px;
+
+
+}
+.div3{
+    margin-top: 0%;
+    margin-left: 0%;
+   
+    
+}

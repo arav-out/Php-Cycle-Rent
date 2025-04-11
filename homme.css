@@ -1,0 +1,261 @@
+body{
+    margin: 0%;
+    background-color: rgb(250, 250, 250);
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100vw;
+
+}
+
+
+.i1{
+    width: 15px;
+    height: 15px;
+  
+}
+.l1{
+    float: right;
+    color: white;
+}
+.i3{
+    float:right;
+}
+.div1{
+    height: 150px;
+    width: 150px;
+   
+    margin: auto;
+}
+.div2{
+    width:1500px ;
+    height: 750px;
+    float: left;
+    margin-top: 100px;
+    position: absolute;
+}
+.div3{
+    font-size: 60px;
+    color: rgb(57, 76, 92);
+    
+    position: absolute;
+margin-top: 200px;
+margin-left: 1500px;
+
+
+
+}
+    
+.div4{
+    font-size: 40px;
+    position: absolute;
+    margin-top: 950px;
+    margin-left: 1000px;
+}
+.c1
+{
+    height: 200px;
+    width: 200px;
+    border: solid;
+    border: black;
+}
+.div5{
+    position:absolute;
+    border: solid;
+    border: rgb(0, 0, 0);
+    
+    margin-top: 1050px;
+    margin-left: 100px;
+    height: 200px;
+    width: 200px;
+
+}
+.div6{
+    position:absolute;
+   
+    
+    margin-top: 1050px;
+    margin-left: 500px;
+   width: 250px;
+
+
+}
+.div7{
+    position:absolute;
+   
+    
+    margin-top: 1050px;
+    margin-left: 1000px;
+   width: 250px;
+
+
+}
+.div8{
+    position:absolute;
+    
+
+    margin-top: 1050px;
+    margin-left: 1400px;
+   width: 250px;
+
+
+}
+.div9{
+    position: absolute;
+    margin-top: 1450px;
+    margin-left: 1000px;
+font-size: 40px;
+}
+
+
+.div10{
+    position: absolute;
+    margin-top: 1550px;
+    margin-left: 50px;
+    background-color:  rgb(61, 59, 59);
+    width: 500px;
+    text-align: center;
+    height: 250px;
+    border-radius: 10px;
+    border: solid;
+    border-color: white;
+   
+}
+.div10:hover{
+    border-color: rgb(150, 86, 2);
+    transition: linear 600ms;}
+   
+
+.div11{
+    position: absolute;
+    margin-top: 1550px;
+    margin-left: 700px;
+    background-color:  rgb(61, 59, 59);
+width: 500px;
+text-align: center;
+border-radius: 10px;
+height: 250px;
+border: solid;
+border-color: white;
+}
+
+.div11:hover{
+    border-color: rgb(150, 86, 2);
+    transition: linear 600ms;}
+   
+.div12{
+    position: absolute;
+    margin-top: 1550px;
+    margin-left: 1300px;
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+    text-align: center;
+    background-color:  rgb(61, 59, 59);
+    border: solid;
+    border-color: white;
+    
+}
+.div12:hover{
+    border-color: rgb(150, 86, 2);
+    transition: linear 600ms;}
+   
+
+.div13
+{
+    position: absolute;
+    margin-top: 1900px;
+    margin-left: 1000px;
+    font-size:40px ;
+
+}
+
+.div14
+{
+    position: absolute;
+    margin-top: 2000px;
+    margin-left: 50px;
+    font-size:40px ;
+
+}
+
+.div15
+{
+    position: absolute;
+    margin-top: 2000px;
+    margin-left: 700px;
+    font-size:40px ;
+
+}
+
+
+.div16
+{
+    position: absolute;
+    margin-top: 2000px;
+    margin-left: 700px;
+    font-size:40px ;
+
+}
+.div17
+{
+    position: absolute;
+    margin-top: 2200px;
+    margin-left: 700px;
+    font-size:40px ;
+    
+
+}
+.div18
+{
+    position: absolute;
+    margin-top: 2300px;
+    margin-left: 700px;
+    
+
+}
+
+.div19
+{
+    position: absolute;
+    margin-top: 2000px;
+    margin-left: 800px;
+    width: 1000px;
+
+}
+
+.div20
+{
+    position: absolute;
+    margin-top: 2100px;
+    margin-left: 800px;
+   
+
+}
+
+.div21
+{
+    position: absolute;
+    margin-top: 2200px;
+    margin-left: 800px;
+    width: 1000px;
+   
+}
+
+.d22
+{
+    position: absolute;
+    margin-top: 2400px;
+    margin-left: 800px;
+    width: 1000px;
+    
+   
+
+}
+
+.div23
+{
+    position: absolute;
+    margin-top: 2100px;
+    margin-left: 700px;
+    font-size:40px;
+
+}
